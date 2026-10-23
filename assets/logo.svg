@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0b0f12"/>
+  
+  <!-- Outer hexagonal reactor housing -->
+  <polygon points="128,24 200,64 200,144 128,184 56,144 56,64" 
+           fill="none" stroke="#c9d6de" stroke-width="2.5" opacity="0.7"/>
+  
+  <!-- Inner hexagon core structure -->
+  <polygon points="128,50 178,78 178,130 128,158 78,130 78,78" 
+           fill="none" stroke="#c9d6de" stroke-width="1.5" opacity="0.45"/>
+  
+  <!-- Fracture seam - diagonal split across the core -->
+  <line x1="78" y1="130" x2="178" y2="78" stroke="#0b0f12" stroke-width="8"/>
+  <line x1="78" y1="130" x2="178" y2="78" stroke="#39ff88" stroke-width="2.5"/>
+  
+  <!-- Glow effect along seam (subtle) -->
+  <line x1="78" y1="130" x2="178" y2="78" stroke="#39ff88" stroke-width="6" opacity="0.15"/>
+  
+  <!-- Left half - lower segment -->
+  <polygon points="128,50 78,78 78,130 128,158" 
+           fill="#0b0f12" stroke="#c9d6de" stroke-width="2"/>
+  
+  <!-- Right half - upper segment (offset/separated) -->
+  <polygon points="128,50 178,78 178,130 128,158" 
+           fill="#0b0f12" stroke="#c9d6de" stroke-width="2" opacity="0.85"/>
+  
+  <!-- Inner reactor element on left half -->
+  <polygon points="108,85 108,135 128,148 128,98" 
+           fill="none" stroke="#39ff88" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Inner reactor element on right half -->
+  <polygon points="148,85 148,135 128,148 128,98" 
+           fill="none" stroke="#ff5c2b" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Central reactor node -->
+  <circle cx="128" cy="104" r="6" fill="#39ff88" opacity="0.9"/>
+  <circle cx="128" cy="104" r="12" fill="none" stroke="#39ff88" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Fracture line details - jagged edges -->
+  <polyline points="78,130 92,122 104,128 128,104 152,110 164,96 178,78" 
+            fill="none" stroke="#c9d6de" stroke-width="0.8" opacity="0.35"/>
+  
+  <!-- Corner accents on outer hex -->
+  <line x1="128" y1="24" x2="128" y2="38" stroke="#c9d6de" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="64" x2="190" y2="73" stroke="#c9d6de" stroke-width="2" opacity="0.5"/>
+  <line x1="56" y1="64" x2="66" y2="73" stroke="#c9d6de" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Small warning indicator at bottom -->
+  <polygon points="120,170 136,170 128,180" fill="#ff5c2b" opacity="0.7"/>
+  
+  <!-- Tick marks on left exterior -->
+  <line x1="44" y1="90" x2="52" y2="90" stroke="#39ff88" stroke-width="1.5" opacity="0.4"/>
+  <line x1="44" y1="108" x2="52" y2="108" stroke="#39ff88" stroke-width="1.5" opacity="0.4"/>
+  <line x1="44" y1="126" x2="52" y2="126" stroke="#39ff88" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Tick marks on right exterior -->
+  <line x1="204" y1="90" x2="212" y2="90" stroke="#ff5c2b" stroke-width="1.5" opacity="0.4"/>
+  <line x1="204" y1="108" x2="212" y2="108" stroke="#ff5c2b" stroke-width="1.5" opacity="0.4"/>
+  <line x1="204" y1="126" x2="212" y2="126" stroke="#ff5c2b" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Fracture micro-cracks radiating from seam -->
+  <line x1="95" y1="118" x2="88" y2="112" stroke="#39ff88" stroke-width="0.8" opacity="0.3"/>
+  <line x1="112" y1="106" x2="106" y2="98" stroke="#39ff88" stroke-width="0.8" opacity="0.3"/>
+  <line x1="148" y1="102" x2="156" y2="94" stroke="#ff5c2b" stroke-width="0.8" opacity="0.3"/>
+  <line x1="160" y1="90" x2="168" y2="84" stroke="#ff5c2b" stroke-width="0.8" opacity="0.3"/>
+</svg>
